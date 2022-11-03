@@ -53,6 +53,21 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <28 29>;
         };
+
+        combo_layer1 {
+            bindings = <&tog 1>;
+            key-positions = <30 31>;
+        };
+
+        combo_layer2 {
+            bindings = <&tog 2>;
+            key-positions = <31 32>;
+        };
+
+        combo_layer3 {
+            bindings = <&tog 3>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
