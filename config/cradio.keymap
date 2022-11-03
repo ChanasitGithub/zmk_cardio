@@ -62,7 +62,7 @@
             bindings = <
   &kp Q   &kp W   &kp E               &kp R             &kp T        &kp Y            &kp U      &kp I    &kp O             &kp P
   &kp A   &kp S   &kp D               &kp F             &kp G        &kp H            &kp J      &kp K    &kp L  &kp SINGLE_QUOTE
-  &kp Z   &kp X   &kp C               &kp V             &kp B        &kp N            &kp M  &kp COMMA  &kp DOT      &kp KP_SLASH
+  &kp Z   &kp X   &kp C               &kp V             &kp B        &kp N            &kp M  &kp COMMA  &kp DOT         &kp SLASH
                          &lt 1 LEFT_CONTROL  &lt 2 LEFT_SHIFT  &lt 3 SPACE  &lt 2 BACKSPACE
             >;
         };
@@ -79,18 +79,18 @@
         SYMBOL_LAYER {
             bindings = <
  &kp EXCLAMATION       &kp AT_SIGN         &kp HASH               &kp DLLR        &kp PERCENT    &kp CARET      &kp AMPS  &kp KP_MULTIPLY  &kp UNDERSCORE  &kp SEMICOLON
-        &kp BSLH         &kp TILDE   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET    &kp COLON  &kp KP_EQUAL         &kp LBRC        &kp RBRC       &kp BKSP
+        &kp BSLH         &kp TILDE   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET    &kp COLON  &kp KP_EQUAL         &kp LBRC        &kp RBRC  &kp BACKSPACE
    &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &kp PIPE     &kp MINUS        &kp EQUAL        &kp PLUS  &kp BACKSLASH
-                                                                     &mo 3        &lt 3 SPACE  &lt 2 SPACE         &mo 2
+                                                                     &mo 3        &lt 3 SPACE  &lt 2 SPACE         &mo 1
             >;
         };
 
         NUMBER_LAYER {
             bindings = <
-   &bt BT_NXT    &bt BT_PRV         &none   &none   &none            &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none
-       &kp F1        &kp F2        &kp F3  &kp F4  &kp F5            &none  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4   &none
- &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &none   &none  &kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none
-                                            &mo 2  &tog 0           &tog 0         &mo 3
+   &bt BT_NXT    &bt BT_PRV         &none   &none   &none         &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &none
+       &kp F1        &kp F2        &kp F3  &kp F4  &kp F5         &none  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4   &none
+ &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &none   &none  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none
+                                            &mo 2  &tog 0        &tog 0         &mo 1
             >;
         };
     };
