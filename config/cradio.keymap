@@ -87,7 +87,7 @@
      &none         &none     &kp K_VOL_DN    &kp K_VOL_UP       &none        &kp HOME     &kp PAGE_UP  &kp PAGE_DOWN          &kp END      &kp NUM_0
  &kp LCTRL  &kp LEFT_ALT     &kp LEFT_GUI  &kp LEFT_SHIFT       &none  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE
    &kp ESC     &kp TILDE  &kp NON_US_BSLH         &kp TAB  &kp TILDE2       &kp MINUS       &kp GRAVE       &kp LBKT         &kp RBKT     &kp DELETE
-                                                    &mo 1    &kp LGUI        &kp RGUI           &mo 2
+                                                    &mo 2    &kp LGUI        &kp RGUI           &mo 3
             >;
         };
 
