@@ -48,7 +48,7 @@
         combo_sym2 {
             timeout-ms = <200>;
             key-positions = <31 33>;
-            bindings = <&mo 4>;
+            bindings = <&mo SYM2>;
         };
 
         // both left thumb keys
@@ -56,7 +56,7 @@
         combo_settings {
             timeout-ms = <300>;
             key-positions = <30 31>;
-            bindings = <&mo 5>;
+            bindings = <&mo SETTINGS>;
         };
 
         combo_backspace {
