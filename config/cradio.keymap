@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include "keymap_italian.h"
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
@@ -123,7 +122,7 @@
             bindings = <
  &kp CARET  &kp UNDERSCORE      &kp POUND  &kp DOLLAR       &kp HASH   &none   &none   &none   &none   &none
  &kp GRAVE       &kp TILDE  &kp BACKSLASH    &kp PIPE  &kp AMPERSAND   &none   &none   &none   &none   &none
-     &none           &none   &kp IT_SECT     &kp IT_CCED     &kp IT_DEG   &none   &none   &none   &none   &none
+     &none           &none   &none     &none     &none   &none   &none   &none   &none   &none
                                                 &none          &none   &none   &none
             >;
         };
